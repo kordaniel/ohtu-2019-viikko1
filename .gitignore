@@ -1,0 +1,6 @@
+#Ignore tmp-files in root directory
+/*.tmp
+
+#Ignore directories in root directory
+/build/
+/.gradle/
