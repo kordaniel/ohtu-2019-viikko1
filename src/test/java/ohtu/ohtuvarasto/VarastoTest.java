@@ -22,8 +22,10 @@ public class VarastoTest {
 
     @Test
     public void konstruktoriLuoKayttokelvottomanVarastonNollaTilavuudella() {
+        //rikottu testi
         Varasto v = new Varasto(0.0);
-        assertEquals(0, v.getTilavuus(), vertailuTarkkuus);
+        //assertEquals(0, v.getTilavuus(), vertailuTarkkuus);
+        assertEquals(2, v.getTilavuus(), vertailuTarkkuus);
     }
     
     @Test
