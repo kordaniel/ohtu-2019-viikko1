@@ -8,3 +8,4 @@
 #Ignore all
 gradle.properties
 .idea/
+/.nb-gradle/
