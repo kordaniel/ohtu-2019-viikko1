@@ -4,3 +4,7 @@
 #Ignore directories in root directory
 /build/
 /.gradle/
+
+#Ignore all
+gradle.properties
+.idea/
