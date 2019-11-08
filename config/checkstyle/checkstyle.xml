@@ -5,6 +5,10 @@
   <module name="BeforeExecutionExclusionFileFilter">
     <property name="fileNamePattern" value="Main\.java$"/>
   </module>
+
+  <!-- codeclimate config -->
+  <property name="severity" value="warning"/>
+
   <module name="TreeWalker">
         <module name="MethodLength">
           <property name="max" value="15"/>
